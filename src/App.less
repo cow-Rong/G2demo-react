@@ -1,0 +1,161 @@
+@import '~antd/dist/antd.less';
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.appcontent {
+  flex: none !important;
+  height: calc(100% - 60px);
+  margin-top: 60px;
+  position: relative;
+}
+
+.ant-btn {
+  margin-right: 8px;
+  font-size: 14px !important;
+}
+
+li,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bigscreen {
+  overflow: hidden;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.headbreadsider {
+  .ant-menu-item {
+    height: 56px !important;
+    line-height: 56px !important;
+  }
+}
+
+.variable-value{
+  width: 100%;
+  div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1280px) {
+  .main-menu {
+    width: 150px;
+    padding: 18px 0;
+    font-size: 13px;
+  }
+  .main-children-container{
+    height: 100%;
+    flex: 1;
+    width: 0;
+    background-color: white;
+    padding: 12px 24px;
+    overflow-x: hidden;
+  }
+  .detail-left-silder{
+    max-width: 150px !important;
+    min-width: 150px !important;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1920px) {
+  .main-menu {
+    width: 150px;
+    padding: 18px 0;
+    font-size: 13px;
+  }
+  .main-children-container{
+    height: 100%;
+    flex: 1;
+    width: 0;
+    background-color: white;
+    padding: 12px 24px;
+    overflow-x: hidden;
+  }
+  .detail-left-silder{
+    max-width: 150px !important;
+    min-width: 150px !important;
+  }
+  .detail-right-silder{
+    max-width: 300px !important;
+    min-width: 300px !important;
+  }
+}
+
+@media (min-width: 1920px) {
+  .main-menu {
+    width: 220px;
+    padding: 24px 0;
+  }
+  .main-children-container{
+    height: 100%;
+    flex: 1;
+    width: 0;
+    background-color: white;
+    padding: 24px 48px;
+    overflow-x: hidden;
+  }
+  .detail-left-silder{
+    max-width: 220px !important;
+    min-width: 220px !important;
+  }
+  .detail-right-silder{
+    max-width: 300px !important;
+    min-width: 300px !important;
+  }
+}
+
+.ant-table {
+  font-size: 13px;
+}
+
+.ant-drawer-content {
+  .ant-form-item-label>label {
+    font-size: 13px;
+  }
+}
+
+.ant-spin-nested-loading {
+  height: 100%;
+}
+
+.ant-spin-container {
+  height: 100%;
+}
+
+.major-graduation-text{
+  font-size:22px;
+  fill:#fff;
+}
+
+.minor-graduations{
+  stroke:#fff;
+  stroke-width:2px;
+}
+
+.major-graduations{
+  stroke:#fff;
+  stroke-width:2px;
+}
